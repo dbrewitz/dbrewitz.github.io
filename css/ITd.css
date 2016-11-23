@@ -1,1 +1,122 @@
 /* my custom stuff here */
+
+
+/* make left nav column collapsable */
+
+#contentRow {
+    padding-top: 0;
+}
+
+#contentBox {
+    transition: left .5s ease-in-out;
+}
+
+#contentBox.fillUp {
+    transition: all 1s ease-in-out;
+    margin-left: 0px;
+}
+
+#sideNavBox {
+    transition: left .5s ease-in-out;
+    left: 0;
+    position: relative;
+}
+
+#sideNavBox.close {
+    left: -100%;
+    transition: left 1s ease-in-out;
+    position: fixed;
+}
+
+/* Hamburger */
+
+#nav-icon1 {
+    width: 33px;
+    height: 40px;
+    position: relative;
+    margin: 5px;
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+    -webkit-transition: .5s ease-in-out;
+    -moz-transition: .5s ease-in-out;
+    -o-transition: .5s ease-in-out;
+    transition: .5s ease-in-out;
+    cursor: pointer;
+}
+
+#nav-icon1 span {
+    display: block;
+    position: absolute;
+    height: 6px;
+    width: 100%;
+    background: #1ba1e2;
+    border-radius: 9px;
+    opacity: 1;
+    left: 0;
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+    -webkit-transition: .25s ease-in-out;
+    -moz-transition: .25s ease-in-out;
+    -o-transition: .25s ease-in-out;
+    transition: .25s ease-in-out;
+}
+
+#nav-icon1 span:nth-child(1) {
+    top: 0px;
+}
+
+#nav-icon1 span:nth-child(2) {
+    top: 12px;
+}
+
+#nav-icon1 span:nth-child(3) {
+    top: 25px;
+}
+
+#nav-icon1.open span:nth-child(1) {
+    top: 18px;
+    -webkit-transform: rotate(135deg);
+    -moz-transform: rotate(135deg);
+    -o-transform: rotate(135deg);
+    transform: rotate(135deg);
+}
+
+#nav-icon1.open span:nth-child(2) {
+    opacity: 0;
+    left: -60px;
+}
+
+#nav-icon1.open span:nth-child(3) {
+    top: 18px;
+    -webkit-transform: rotate(-135deg);
+    -moz-transform: rotate(-135deg);
+    -o-transform: rotate(-135deg);
+    transform: rotate(-135deg);
+}
+
+#suiteBarLeft, #s4-ribbonrow,#DeltaSPRibbon {
+    background-color: black;
+    color: white;
+}
+
+#suiteBarRight, .ms-welcome-root>a.ms-core-menu-root {
+    background-color: black;
+    color: white;
+}
+
+.ms-browseTab.ms-cui-tt-s > .ms-cui-tt-a > .ms-cui-tt-span, .ms-cui-tt-a > .ms-cui-tt-span, .ms-promotedActionButton-text {
+    color: white ;
+}
+
+.ms-core-suiteLink-a span {
+    color: white;
+}
+
+.ms-core-suiteLink-a:hover {
+    background-color: grey;
+}
+
