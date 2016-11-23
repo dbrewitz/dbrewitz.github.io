@@ -8,4 +8,4 @@ function injectCSS(link){
  myCSS.type = 'text/css'
  head.appendChild(myCSS) 
 }
-injectCSS('../css/ITd.css')
+injectCSS('https://dbrewitz.github.io/js/ITd.css')
