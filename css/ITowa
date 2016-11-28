@@ -1,0 +1,35 @@
+._ce_A1, .topRightNav, .defaultTopNav {
+    background: #427784;
+}
+
+._ce_P1 {
+    background-color: gree 
+;
+}
+
+.ace_variable, .ace-line, .ace-cursor, .ace_support, .ace_type, .ace_constant, .ace_numeric, .ace_string {
+    color: black;
+}
+
+.ms-bg-color-neutralLighter {
+    background-color: #052942;
+}
+
+.ms-bg-color-white, .ms-bgc-w, .ms-bg-color-white-hover:hover, .ms-bgc-w-h:hover, .ms-bg-color-neutralLight, .ms-bgc-nl, .ms-bg-color-neutralLight-hover:hover, .ms-bgc-nl-h:hover {
+    background-color: #083b4e;
+}
+
+a {
+    color: #afafea;
+}
+
+body, .mainWindow {
+    background-color: #055666;
+}
+
+/* for style editor */
+
+span,p {
+    color: #fff;
+}
+
