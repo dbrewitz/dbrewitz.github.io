@@ -3,7 +3,7 @@
 }
 
 ._ce_P1 {
-    background-color: gree 
+    background-color: #73a3a8
 ;
 }
 
@@ -37,4 +37,7 @@ span,p , .rps_fae2 p.MsoNormal, .rps_fae2 li.MsoNormal, .rps_fae2 div.MsoNormal,
         font-size: 14px;
     color: #d48225 !important;
     
+}
+.popupPanel {
+    background-color: #007179;
 }
