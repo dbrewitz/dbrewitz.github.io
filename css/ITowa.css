@@ -29,7 +29,12 @@ body, .mainWindow {
 
 /* for style editor */
 
-span,p .ms-font-s, .ms-font-s, .ms-font-color-neutralDark, .ms-fcl-nd, .ms-font-color-neutralDark-hover:hover, .ms-fcl-nd-h:hover, .ms-font-color-neutralSecondary, .ms-fcl-ns, .ms-font-color-neutralSecondary-hover:hover, .ms-fcl-ns-h:hover, .ms-font-l, .ms-font-color-black, .ms-fcl-b, .ms-font-color-black-hover:hover, .ms-fcl-b-h:hover,  .ms-font-color-black, .ms-fcl-b, .ms-font-color-black-hover:hover, .ms-fcl-b-h:hover  {
+span,p , .rps_fae2 p.MsoNormal, .rps_fae2 li.MsoNormal, .rps_fae2 div.MsoNormal, .ms-font-s, .ms-font-s, .ms-font-color-neutralDark, .ms-fcl-nd, .ms-font-color-neutralDark-hover:hover, .ms-fcl-nd-h:hover, .ms-font-color-neutralSecondary, .ms-fcl-ns, .ms-font-color-neutralSecondary-hover:hover, .ms-fcl-ns-h:hover, .ms-font-l, .ms-font-color-black, .ms-fcl-b, .ms-font-color-black-hover:hover, .ms-fcl-b-h:hover,  .ms-font-color-black, .ms-fcl-b, .ms-font-color-black-hover:hover, .ms-fcl-b-h:hover  {
     color: #fff;
 }
 
+.ms-font-weight-semibold ._lv_b {
+        font-size: 14px;
+    color: #d48225 !important;
+    
+}
