@@ -8,7 +8,7 @@ function injectCSS(link){
  myCSS.type = 'text/css'
  head.appendChild(myCSS) 
 }
-injectCSS('https://dbrewitz.github.io/css/ITd.css')
+injectCSS('https://dbrewitz.github.io/css/ITsp.css')
 
 document.addEventListener('DOMContentLoaded', addHamburger())
 
