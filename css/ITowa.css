@@ -29,7 +29,7 @@ body, .mainWindow {
 
 /* for style editor */
 
-span,p. .ms-font-s, .ms-font-color-neutralSecondary, .ms-fcl-ns, .ms-font-color-neutralSecondary-hover:hover, .ms-fcl-ns-h:hover, .ms-font-l, .ms-font-color-black, .ms-fcl-b, .ms-font-color-black-hover:hover, .ms-fcl-b-h:hover,  .ms-font-color-black, .ms-fcl-b, .ms-font-color-black-hover:hover, .ms-fcl-b-h:hover  {
-    color: #fff !important;
+span,p .ms-font-s, .ms-font-color-neutralSecondary, .ms-fcl-ns, .ms-font-color-neutralSecondary-hover:hover, .ms-fcl-ns-h:hover, .ms-font-l, .ms-font-color-black, .ms-fcl-b, .ms-font-color-black-hover:hover, .ms-fcl-b-h:hover,  .ms-font-color-black, .ms-fcl-b, .ms-font-color-black-hover:hover, .ms-fcl-b-h:hover  {
+    color: #fff;
 }
 
