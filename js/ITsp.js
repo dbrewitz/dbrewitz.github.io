@@ -15,7 +15,9 @@ document.addEventListener('DOMContentLoaded', addHamburger())
 function addHamburger() {
     var menu = document.getElementById('contentRow')
     var menuC = '<div id="nav-icon1" class="open"><span></span><span></span><span></span></div>'
+    if(menu){
     menu.insertAdjacentHTML('beforebegin', menuC);
+    }
     var d = document.getElementById('nav-icon1');
     var a = document.getElementById('sideNavBox')
     var m = document.getElementById('contentBox')
