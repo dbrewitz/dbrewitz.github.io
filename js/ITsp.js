@@ -1,12 +1,12 @@
 console.log('Im working')
 
-function injectCSS(link){
- var head = document.getElementsByTagName('head')[0]
- var myCSS = document.createElement('link')
- myCSS.href = link
- myCSS.rel = 'stylesheet'
- myCSS.type = 'text/css'
- head.appendChild(myCSS) 
+function injectCSS(link) {
+    var head = document.getElementsByTagName('head')[0]
+    var myCSS = document.createElement('link')
+    myCSS.href = link
+    myCSS.rel = 'stylesheet'
+    myCSS.type = 'text/css'
+    head.appendChild(myCSS)
 }
 injectCSS('https://dbrewitz.github.io/css/ITsp.css')
 
@@ -15,30 +15,31 @@ document.addEventListener('DOMContentLoaded', addHamburger())
 function addHamburger() {
     var menu = document.getElementById('contentRow')
     var menuC = '<div id="nav-icon1" class="open"><span></span><span></span><span></span></div>'
-    if(menu){
+    if (menu) {
         var navIcond = document.getElementById('nav-icon1');
-        
-      if(!navIcond){  menu.insertAdjacentHTML('beforebegin', menuC)}
-   
-    var d = document.getElementById('nav-icon1');
-    var a = document.getElementById('sideNavBox')
-    var m = document.getElementById('contentBox')
+        if (!navIcond) {
+            menu.insertAdjacentHTML('beforebegin', menuC)
 
-    // un comment to to close column by default
-    // a.classList.add('close')
-    //  m.classList.add('fillUp')
+            var d = document.getElementById('nav-icon1');
+            var a = document.getElementById('sideNavBox')
+            var m = document.getElementById('contentBox')
 
-    d.addEventListener('click', function () {
-        a.classList.toggle('close');
-        m.classList.toggle('fillUp');
-        d.classList.toggle('open');
-    });
+            // un comment to to close column by default
+            // a.classList.add('close')
+            //  m.classList.add('fillUp')
+
+            d.addEventListener('click', function () {
+                a.classList.toggle('close');
+                m.classList.toggle('fillUp');
+                d.classList.toggle('open');
+            });
+        }
     }
 }
 
 // hide alert on washnet home
 if (document.getElementById('washco-alert') !== null) {
-    setTimeout(function() {
+    setTimeout(function () {
         document.getElementById('washco-alert').style.display = "none";
     }, 3000);
 }
