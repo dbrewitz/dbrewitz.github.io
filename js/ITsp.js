@@ -16,8 +16,7 @@ function addHamburger() {
     var menu = document.getElementById('contentRow')
     var menuC = '<div id="nav-icon1" class="open"><span></span><span></span><span></span></div>'
     if (menu) {
-        var navIcond = document.getElementById('nav-icon1');
-        if (!navIcond) {
+        if (document.location.pathname !== "/teams/it/SitePages/FunSquad.aspx" ) {
             menu.insertAdjacentHTML('beforebegin', menuC)
 
             var d = document.getElementById('nav-icon1');
