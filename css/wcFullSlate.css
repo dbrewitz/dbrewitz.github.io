@@ -15,7 +15,21 @@
 .fs-text{
     margin-left:10px
 }
+Lucian
+Escalations | Full Slate
 
-.inner.col.first.last {
+
+.fs-booking-fields tr td div{
+    margin-left: 5px
+}
+
+@media only screen and (max-width: 760px) {
+    .fs-embed {
+     overflow:scroll;   
+    }
+}
+
+/* makes CivicPlus height dynamic to ajax content updates */
+ .inner.col.first.last {
     height: auto !important;
 }
