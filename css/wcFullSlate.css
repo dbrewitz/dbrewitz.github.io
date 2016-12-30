@@ -1,0 +1,15 @@
+.fs-locations, .fs-instructions, .fs-selected-value, .fs-primary-description {
+    padding: 5px;
+}
+
+.fs-embed .fs-instructions {
+    font-size: 1.5em;
+}
+
+.fs-booking-service td {
+    max-width: 630px;
+}
+
+.inner.col.first.last {
+    height: auto !important;
+}
