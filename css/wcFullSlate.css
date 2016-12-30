@@ -24,8 +24,8 @@ Escalations | Full Slate
 }
 
 @media only screen and (max-width: 760px) {
-    .fs-embed {
-     overflow:scroll;   
+    div.fs-embed {
+     overflow:scroll !important;   
     }
 }
 
