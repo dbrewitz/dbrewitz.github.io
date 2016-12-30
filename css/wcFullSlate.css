@@ -1,3 +1,5 @@
+/* Use with Full Slate js widgets  */
+
 .fs-locations, .fs-instructions, .fs-selected-value, .fs-primary-description {
     padding: 5px;
 }
@@ -8,6 +10,10 @@
 
 .fs-booking-service td {
     max-width: 630px;
+}
+
+.fs-text{
+    margin-left:10px
 }
 
 .inner.col.first.last {
