@@ -1,4 +1,7 @@
-/* Use with Full Slate js widgets  */
+   /*  Use with Full Slate JS widgets on CivicPlus  */
+  /*  FS = //washingtoncounty.fullslate.com/      */
+ /*  CP = //co.washington.mn.us                 */
+/* ----------========= DTB =======------------*/
 
 .fs-locations, .fs-instructions, .fs-selected-value, .fs-primary-description {
     padding: 5px;
