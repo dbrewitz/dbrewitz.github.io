@@ -3,6 +3,9 @@ body {
   background-color: #111;
 }
 
+.intro {
+  color: #fff;
+}
 
 .container {
   -webkit-perspective: 1000;
