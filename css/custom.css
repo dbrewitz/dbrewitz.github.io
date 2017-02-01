@@ -2,3 +2,317 @@
 body {
   background-color: #fff;
 }
+
+
+.container {
+  -webkit-perspective: 1000;
+  perspective: 1000;
+  position: relative;
+  width: 100%;
+  max-width: 400px;
+  height: 100%;
+  max-height: 400px;
+}
+
+.container a {
+  opacity: 0;
+  position: absolute;
+  z-index: 1;
+  width: 50%;
+  height: 50%;
+}
+
+.container a:hover,
+.container a:focus {
+  -webkit-transform: translateZ(50px);
+  transform: translateZ(50px);
+}
+
+.container a:hover ~ .card,
+.container a:focus ~ .card {
+  color: white;
+}
+
+.container a:hover ~ .card .border,
+.container a:focus ~ .card .border {
+  -webkit-transform: translateZ(24px);
+  transform: translateZ(24px);
+}
+
+.container a:active ~ .card .border {
+  -webkit-transform: none;
+  transform: none;
+}
+
+.container a:nth-child(1) {
+  top: 0;
+  left: 0;
+}
+
+.container a:nth-child(1):hover ~ .card,
+.container a:nth-child(1):focus ~ .card {
+  -webkit-transform-origin: right bottom;
+  transform-origin: right bottom;
+  -webkit-transform: rotateX(5deg) rotateY(-5deg) translateZ(0);
+  transform: rotateX(5deg) rotateY(-5deg) translateZ(0);
+  -webkit-box-shadow: 10px 20px 5px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 10px 20px 5px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 10px 20px 5px 0px rgba(0, 0, 0, 0.75);
+}
+
+.container a:nth-child(1):hover ~ .card:before {
+  content: "";
+  top: 5%;
+  left: 5%;
+  position: absolute;
+  color: white;
+  z-index: 1;
+  font-size: 18px;
+  transition: all 1s;
+  animation: fadeIn1 .5s linear 1;
+  background-image: url("http://dbrewitz.github.io/images/codepen.svg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  width: 50%;
+  height: 50%
+}
+
+@keyframes fadeIn1 {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.container a:nth-child(2) {
+  top: 0;
+  right: 0;
+}
+
+.container a:nth-child(2):hover ~ .card,
+.container a:nth-child(2):focus ~ .card {
+  -webkit-transform-origin: left bottom;
+  transform-origin: left bottom;
+  -webkit-transform: rotateX(5deg) rotateY(5deg) translateZ(0);
+  transform: rotateX(5deg) rotateY(5deg) translateZ(0);
+  -webkit-box-shadow: -10px 20px 5px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: -10px 20px 5px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: -10px 20px 5px 0px rgba(0, 0, 0, 0.75);
+}
+
+.container .card h1 {
+  font-size: 32px;
+  color: black;
+}
+
+.container a ~ .card h1 {
+  transition: all .5s;
+  opacity: 1;
+}
+
+.container a:hover ~ .card h1 {
+  opacity: 0;
+  transition: all .5s;
+}
+
+.container a:nth-child(2):hover ~ .card:before {
+  content: "";
+  top: 5%;
+  right: 0;
+  position: absolute;
+  color: white;
+  z-index: 1;
+  font-size: 18px;
+  transition: all 1s;
+  animation: fadeIn2 .5s linear 1;
+  background-image: url("http://dbrewitz.github.io/images/social-twitter.svg");
+  background-repeat: no-repeat;
+  background-size: 75% 100%;
+  width: 50%;
+  height: 50%;
+}
+
+@keyframes fadeIn2 {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.container a:nth-child(3) {
+  bottom: 0;
+  right: 0;
+}
+
+.container a:nth-child(3):hover ~ .card,
+.container a:nth-child(3):focus ~ .card {
+  -webkit-transform-origin: left top;
+  transform-origin: left top;
+  -webkit-transform: rotateX(-5deg) rotateY(5deg) translateZ(0);
+  transform: rotateX(-5deg) rotateY(5deg) translateZ(0);
+  -webkit-box-shadow: -10px -20px 5px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: -10px -20px 5px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: -10px -20px 5px 0px rgba(0, 0, 0, 0.75);
+}
+
+.container a:nth-child(3):hover ~ .card:before {
+  content: "";
+  bottom: 5%;
+  right: 0;
+  position: absolute;
+  color: white;
+  z-index: 1;
+  font-size: 18px;
+  transition: all 1s;
+  animation: fadeIn3 .5s linear 1;
+  background-image: url("http://dbrewitz.github.io/images/github_icon.png");
+  background-repeat: no-repeat;
+  background-size: 75% 100%;
+  width: 50%;
+  height: 50%;
+}
+
+@keyframes fadeIn3 {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.container a:nth-child(4) {
+  bottom: 0;
+  left: 0;
+}
+
+.container a:nth-child(4):hover ~ .card,
+.container a:nth-child(4):focus ~ .card {
+  -webkit-transform-origin: right top;
+  transform-origin: right top;
+  -webkit-transform: rotateX(-5deg) rotateY(-5deg) translateZ(0);
+  transform: rotateX(-5deg) rotateY(-5deg) translateZ(0);
+  -webkit-box-shadow: 10px -20px 5px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 10px -20px 5px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 10px -20px 5px 0px rgba(0, 0, 0, 0.75);
+}
+
+.container a:nth-child(4):hover ~ .card:before {
+  content: "";
+  bottom: 5%;
+  left: 5%;
+  position: absolute;
+  color: white;
+  z-index: 1;
+  font-size: 18px;
+  transition: all 1s;
+  animation: fadeIn4 .5s linear 1;
+  background-image: url("http://dbrewitz.github.io/images/linkedin-icon.png");
+  background-repeat: no-repeat;
+  background-size: 75% 100%;
+  width: 50%;
+  height: 50%;
+}
+
+@keyframes fadeIn4 {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.card .myImg {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+
+.container .card {
+  -webkit-transition: all 300ms ease-out;
+  transition: all 300ms ease-out;
+  position: relative;
+  z-index: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.container .card .border {
+  -webkit-transition: all 300ms ease-out;
+  transition: all 300ms ease-out;
+  -webkit-transform-origin: center center;
+  transform-origin: center center;
+  position: absolute;
+  top: 12px;
+  left: 12px;
+  width: calc(100% - 24px);
+  height: calc(100% - 24px);
+  border: 2px solid white;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+* {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-tap-highlight-color: transparent;
+  -webkit-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+}
+
+*:focus {
+  outline: none !important;
+}
+
+body,
+html {
+  height: 100%;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -ms-flex-line-pack: center;
+  align-content: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  padding: 12px;
+}
+
+.container .card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -ms-flex-line-pack: center;
+  align-content: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  background: black;
+  color: white;
+}
