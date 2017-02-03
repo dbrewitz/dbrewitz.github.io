@@ -1,0 +1,7 @@
+# robots.txt for http://dbrewitz.com
+User-agent: *
+Disallow:
+user-agent: Baiduspider
+Disallow: /
+User-agent: Yandex
+Disallow: /
