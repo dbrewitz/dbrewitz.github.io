@@ -1,18 +1,18 @@
 /* TEAM */
-	Chef: David Brewitz
-	Contact: hello [at] humanstxt.org
-	Twitter: @TechnoloD
+    Chef: David Brewitz
+    Twitter: @TechnoloD
+    Location: MN, US
 
 /* THANKS */
-  Github: github.com
-  Google: google.com
-  Codecademhy: Codecademy.com
-  FreeCodeCamp: FreeCodeCamp.com
+    Github: github.com
+    Google: google.com
+    Codecademhy: Codecademy.com
+    FreeCodeCamp: FreeCodeCamp.com
 
 /* SITE */
-	Last update: 2/2017
-	Language: English
-	Doctype:HTML5
-  Standards: HTML5, CSS3, JavaScript
-  Components: jQuery, Bootstrap
-	IDE: VSCode, Chrome
+    Last update: 2/2017
+    Language: English
+    Doctype:HTML5
+    Standards: HTML5, CSS3, JavaScript
+    Components: jQuery, Bootstrap
+    IDE: VSCode, Chrome
