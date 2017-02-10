@@ -305,3 +305,11 @@ a {
     /* IE6-9 */
     border: none;
 }
+
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+    color: #c6cfd2;
+    background-color: #146563;
+}
+.navbar-default .navbar-brand, .navbar-default .navbar-nav>li>a  {
+    color: #d6d6d6;
+} 
