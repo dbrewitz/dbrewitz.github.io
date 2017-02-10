@@ -68,9 +68,9 @@ body {
     transform-origin: right bottom;
     -webkit-transform: rotateX(5deg) rotateY(-5deg) translateZ(0);
     transform: rotateX(5deg) rotateY(-5deg) translateZ(0);
-    -webkit-box-shadow: 10px 20px 5px 0px rgba(0, 0, 0, 0.75);
-    -moz-box-shadow: 10px 20px 5px 0px rgba(0, 0, 0, 0.75);
-    box-shadow: 10px 20px 5px 0px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 10px 20px 5px 0px rgba(154, 143, 143, 0.75);
+    -moz-box-shadow: 10px 20px 5px 0px rgba(154, 143, 143, 0.75);
+    box-shadow: 10px 20px 5px 0px rgba(154, 143, 143, 0.75);
 }
 
 .container a:nth-child(1):hover~.card:before {
@@ -110,9 +110,9 @@ body {
     transform-origin: left bottom;
     -webkit-transform: rotateX(5deg) rotateY(5deg) translateZ(0);
     transform: rotateX(5deg) rotateY(5deg) translateZ(0);
-    -webkit-box-shadow: -10px 20px 5px 0px rgba(0, 0, 0, 0.75);
-    -moz-box-shadow: -10px 20px 5px 0px rgba(0, 0, 0, 0.75);
-    box-shadow: -10px 20px 5px 0px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: -10px 20px 5px 0px rgba(154, 143, 143, 0.75);
+    -moz-box-shadow: -10px 20px 5px 0px rgba(154, 143, 143, 0.75));
+    box-shadow: -10px 20px 5px 0px rgba(154, 143, 143, 0.75);
 }
 
 .container .card h1 {
@@ -170,9 +170,9 @@ body {
     transform-origin: left top;
     -webkit-transform: rotateX(-5deg) rotateY(5deg) translateZ(0);
     transform: rotateX(-5deg) rotateY(5deg) translateZ(0);
-    -webkit-box-shadow: -10px -20px 5px 0px rgba(0, 0, 0, 0.75);
-    -moz-box-shadow: -10px -20px 5px 0px rgba(0, 0, 0, 0.75);
-    box-shadow: -10px -20px 5px 0px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: -10px -20px 5px 0px rgba(154, 143, 143, 0.75);
+    -moz-box-shadow: -10px -20px 5px 0px rgba(154, 143, 143, 0.75);
+    box-shadow: -10px -20px 5px 0px rgba(154, 143, 143, 0.75);
 }
 
 .container a:nth-child(3):hover~.card:before {
@@ -212,9 +212,9 @@ body {
     transform-origin: right top;
     -webkit-transform: rotateX(-5deg) rotateY(-5deg) translateZ(0);
     transform: rotateX(-5deg) rotateY(-5deg) translateZ(0);
-    -webkit-box-shadow: 10px -20px 5px 0px rgba(0, 0, 0, 0.75);
-    -moz-box-shadow: 10px -20px 5px 0px rgba(0, 0, 0, 0.75);
-    box-shadow: 10px -20px 5px 0px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 10px -20px 5px 0px rgba(154, 143, 143, 0.75);
+    -moz-box-shadow: 10px -20px 5px 0px rgba(154, 143, 143, 0.75));
+    box-shadow: 10px -20px 5px 0px rgba(154, 143, 143, 0.75);
 }
 
 .container a:nth-child(4):hover~.card:before {
