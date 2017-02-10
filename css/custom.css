@@ -1,6 +1,9 @@
 /* this is custom css for db */
 body {
   background-color: #847f7f;
+    background-image: url(/images/DeviantArt.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .intro {
