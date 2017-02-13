@@ -6,3 +6,11 @@ myEle.type = 'text/css'
 myEle.rel = 'stylesheet'
 }
 load()
+
+
+document.addEventListener('DOMContentLoaded', function(){
+ var clearFix = document.querySelectorAll('.item .image + .clearfix')
+for (var i = 0; i < clearFix.length; i++){
+    clearFix[i].style.display = 'none'
+} 
+}
