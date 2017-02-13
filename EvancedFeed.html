@@ -1,0 +1,58 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Evanced Feeds</title>
+<meta name="viewport" content="initial-scale=1, maximum-scale=1">
+    <style type="text/css">
+  
+ .item{
+   width: 100%;
+   max-width: 700px;
+   padding: 10px;
+   display:flex;
+   flex-wrap: wrap;
+   justify-content: space-around;
+   align-items: stretch;
+ }
+ .item:nth-child(odd){
+   background-color:#dedada;
+ }
+ .title a{
+   color: green;
+   font-weight: 700;
+   font-size: 16px;
+ }
+ .image {
+   margin: 5px;
+   min-width: 50%;
+ }
+ .image img{
+   max-width: 50%;
+ }
+
+ #eventdate{
+  padding: 0 0 0 10px;
+  font-weight: 700;
+}
+  .description{
+    text-align:left;
+    padding:5px 0;
+    min-width: 50%
+  }
+
+  .branch, .location{
+    font-weight: 700;
+  }
+    </style>
+
+  </head>
+  <body>
+ <div id="eventstinycal" class="eventstinycal"></div>
+
+    <div style="width: 100%; text-align: center;">
+        <div id="eventsinfo" class="eventsinfo">&nbsp;</div>
+        <script charset="ISO-8859-1" type="text/javascript" src="https://host6.evanced.info/melsa/washington/eventsxml.asp?dm=html&amp;lib=ALL&amp;alltime=1&amp;nd=7&amp;IncludeDateHtml=1&amp;limit=20"></script>
+        <h3 class="subheader"><a href="https://host6.evanced.info/melsa/washington/eventcalendar.asp?lib=ALL&nd=30" target="_blank" title=" Washington County Library Events">See all library events...</a></h3>
+    </div>
+  </body>
+</html>
