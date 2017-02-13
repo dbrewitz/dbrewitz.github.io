@@ -13,4 +13,4 @@ document.addEventListener('DOMContentLoaded', function(){
 for (var i = 0; i < clearFix.length; i++){
     clearFix[i].style.display = 'none'
 } 
-}
+})
