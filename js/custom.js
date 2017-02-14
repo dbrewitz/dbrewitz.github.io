@@ -1,7 +1,8 @@
-var yourIP = document.querySelector('.container .myIP')
-yourIP? yourIP.innerHTML = 'Your IP address is:  ' + userip : false
+document.addEventListener('DOMContentLoaded', function(){
+    var yourIP = document.querySelector('.container .myIP')
+    yourIP? yourIP.innerHTML = 'Your IP address is:  ' + userip : false
 
-
+})
 
 console.log('hello gitverse');
 function findBaxter() {
