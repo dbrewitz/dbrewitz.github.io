@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', function(){
-    var yourIP = document.querySelector('.container .myIP')
+    var yourIP = document.querySelector('.ip .myIP')
     yourIP? yourIP.innerHTML = 'Your IP address is:  ' + userip : false
 
 })
