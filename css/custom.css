@@ -317,3 +317,11 @@ a {
 .navbar-default .navbar-brand, .navbar-default .navbar-nav>li>a  {
     color: #d6d6d6;
 } 
+
+
+footer {
+background-color: black;
+padding: 20px;
+color:white;
+margin-top: 30px;
+}
