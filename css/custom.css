@@ -87,7 +87,7 @@ navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
     font-size: 18px;
     transition: all 1s;
     animation: fadeIn1 .5s linear 1;
-    background-image: url("http://dbrewitz.github.io/images/codepen.svg");
+    background-image: url("/images/codepen.svg");
     background-repeat: no-repeat;
     background-size: 100% 100%;
     width: 50%;
@@ -147,7 +147,7 @@ navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
     font-size: 18px;
     transition: all 1s;
     animation: fadeIn2 .5s linear 1;
-    background-image: url("http://dbrewitz.github.io/images/social-twitter.svg");
+    background-image: url("/images/social-twitter.svg");
     background-repeat: no-repeat;
     background-size: 75% 100%;
     width: 50%;
@@ -189,7 +189,7 @@ navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
     font-size: 18px;
     transition: all 1s;
     animation: fadeIn3 .5s linear 1;
-    background-image: url("http://dbrewitz.github.io/images/github_icon.png");
+    background-image: url("/images/github_icon.png");
     background-repeat: no-repeat;
     background-size: 75% 100%;
     width: 50%;
@@ -231,7 +231,7 @@ navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
     font-size: 18px;
     transition: all 1s;
     animation: fadeIn4 .5s linear 1;
-    background-image: url("http://dbrewitz.github.io/images/CM.png");
+    background-image: url("/images/CM.png");
     background-repeat: no-repeat;
     background-size: 75% 100%;
     width: 50%;
@@ -292,7 +292,7 @@ a {
     -ms-flex-pack: center;
     justify-content: center;
     color: white;
-    background-image: url(http://dbrewitz.github.io/images/CircuitBoardWhite.jpg);
+    background-image: url(/images/CircuitBoardWhite.jpg);
 }
 
 .navbar-default {
