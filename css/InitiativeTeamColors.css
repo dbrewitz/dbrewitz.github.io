@@ -1,0 +1,47 @@
+
+/* Team Colors */
+
+/* Teaam 1 */
+.ms-acal-color2, #onetidDoclibViewTbl0 > tbody > tr:nth-child(1) > td:nth-child(1) > table > tbody > tr:nth-child(2){
+    background-color: #0072C6 ;
+}
+/* Team 2 */
+.ms-acal-color3, #onetidDoclibViewTbl0 > tbody > tr:nth-child(1) > td:nth-child(3) > table > tbody > tr:nth-child(2){
+    background-color: #288054 ;
+}
+/* Team 3 */
+.ms-acal-color4, #onetidDoclibViewTbl0 > tbody > tr:nth-child(3) > td:nth-child(1) > table > tbody > tr:nth-child(2){
+    background-color: #767956;
+}
+/* Team 4 */
+.ms-acal-color5, #onetidDoclibViewTbl0 > tbody > tr:nth-child(3) > td:nth-child(3) > table > tbody > tr:nth-child(2){
+    background-color: #ED0033;
+}
+/* Team 5 */
+.ms-acal-color6, #onetidDoclibViewTbl0 > tbody > tr:nth-child(5) > td:nth-child(1) > table > tbody > tr:nth-child(2){
+    background-color: #682A7A;
+}
+/* Team 6 */
+.ms-acal-color7, #onetidDoclibViewTbl0 > tbody > tr:nth-child(5) > td:nth-child(3) > table > tbody > tr:nth-child(2){
+    background-color: #006984;
+}
+/* Team 7 */
+.ms-acal-color8, #onetidDoclibViewTbl0 > tbody > tr:nth-child(7) > td:nth-child(1) > table > tbody > tr:nth-child(2){
+    background-color: #13402A;
+}
+/* Team 8 */
+.ms-acal-color9, #onetidDoclibViewTbl0 > tbody > tr:nth-child(7) > td:nth-child(3) > table > tbody > tr:nth-child(2){
+    background-color: #3B3C2B;
+}
+/* Team 9 */
+#onetidDoclibViewTbl0 > tbody > tr:nth-child(9) > td:nth-child(1) > table > tbody > tr:nth-child(2){
+    background-color: gray;
+}
+/* Team 10 */
+#onetidDoclibViewTbl0 > tbody > tr:nth-child(9) > td:nth-child(3) > table > tbody > tr:nth-child(2){
+    background-color: orange;
+}
+/* Team 11 */
+.ms-acal-color1, #onetidDoclibViewTbl0 > tbody > tr:nth-child(11) > td:nth-child(1) > table > tbody > tr:nth-child(2){
+    background-color: #00485B;
+}
